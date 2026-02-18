@@ -31,8 +31,7 @@
 #include "Rect.h"
 #include <fstream>
 #include <limits>
-#define GamePackageName "com.kakaogames.gdts" // define the game package name here please
-
+#define GamePackageName "com.netmarble.nanagb" // Sesuaikan jika versinya berbeda
 int glHeight, glWidth;
 
 int isGame(JNIEnv *env, jstring appDataDir)
